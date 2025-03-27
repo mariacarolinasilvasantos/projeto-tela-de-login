@@ -32,13 +32,15 @@ section#login{
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.616);
+
+    transition: width .3s heigth .3s;
 }
 
 
 
 section#login > div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/edificio.jpeg);
+    background: #5f2c82 url(../imagens/pexels-photo-3653997.jpeg);
     background-size: cover;
     background-position: bottom right;
     height: 200px;
